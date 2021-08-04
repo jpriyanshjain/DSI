@@ -1,0 +1,51 @@
+.frameone__deviceSVG {
+  width: 349px;
+  height: 235px;
+  margin: 124px 31px;
+  margin-bottom: 0px;
+}
+.frameone__des {
+  width: 383px;
+  height: 307px;
+  margin: 34px 14px;
+}
+.frameone__des--title {
+  width: 100%;
+  height: 135px;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 133%;
+  color: #1f2e35;
+  text-align: center;
+}
+.red {
+  color: #f05a5f;
+  margin-top: -45px;
+  margin-bottom: -96px;
+}
+
+.frameone__des--text {
+  width: 383px;
+  height: 87px;
+  margin: 16px 0;
+  font-size: 21px;
+  line-height: 29px;
+  text-align: center;
+  overflow: auto;
+}
+.frameone__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .frameone {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+  .frameone__deviceSVG {
+    margin: auto 0;
+  }
+}

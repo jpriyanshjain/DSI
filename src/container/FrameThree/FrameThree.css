@@ -1,0 +1,86 @@
+.frameThree__title {
+  text-align: center;
+  width: 288px;
+  height: 43px;
+  margin: 24px 62px 0 62px;
+}
+.frameThree__title--text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #1f2e35;
+}
+
+.frameThree__section {
+  width: 359px;
+  height: 306px;
+  margin: 34px 26px;
+}
+.frameThree__section--SVG {
+  width: 100px;
+  height: 100px;
+  margin: 0 130px;
+}
+
+.frameThree__section--title {
+  width: 151px;
+  height: 37px;
+  margin: 15px 104px;
+}
+.frameThree__section--title--text {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 133%;
+  color: #ee4248;
+}
+.frameThree__section--des {
+  width: 359px;
+  height: 81px;
+}
+
+.frameThree__section--des--text {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #30333e;
+}
+.frameThree__section--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.frameThree__ourService--btn {
+  margin: 2rem;
+}
+.frameThree__ourTech {
+  margin-top: 3rem;
+}
+.frameThree__ourTech--title--text {
+  width: 197px;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 133.69%;
+  color: #ee4248;
+}
+.frameThree__ourTech--btn {
+  margin-top: 2rem;
+}
+@media (min-width: 768px) {
+  .frameThree__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .frameThree__section--des--text {
+    height: 108px;
+    width: 329px;
+    text-align: start;
+    line-height: 150%;
+  }
+  .btnone {
+    margin-top: 68px;
+  }
+}
